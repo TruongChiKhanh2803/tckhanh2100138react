@@ -29,6 +29,8 @@ import Login from './demo/Login';
 function App() {
   return (
     <div className="App">
+      <Menu />
+
       <Hello />
       <Car />
       <Login />

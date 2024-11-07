@@ -2,10 +2,10 @@ import Item from './Item';
 
 const Menu = () => {
     const list = [
-        { link: "#home", content: "Home" },
-        { link: "#about", content: "About" },
-        { link: "#services", content: "Services" },
-        { link: "#contact", content: "Contact" },
+        { link: "/", content: "Trang chủ" },
+        { link: "/groups", content: "Nhóm sản phẩm" },
+        { link: "/products", content: "Danh sách sản phẩm" },
+
     ];
 
     return (
